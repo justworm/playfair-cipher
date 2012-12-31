@@ -1,11 +1,11 @@
 playfair-cipher
 ===============
 
-Version:0.1
+Version:0.1 \n
 Function:simple python code implemented Playfair cipher.
 
 Example:
-=============================================
+========
 Encrypting:
 key:PlayfairExample
 Message:Hide the gold in the tree stump
@@ -15,16 +15,17 @@ Decrypting:
 Key:PlayfairExample
 Cipher:BMODZBXDNABEKUDMUIXMMOUVIF
 >>hidethegoldinthetreestump
-==============================================
+
 
 BUG:
+====
 1)The plaintext after decrypting,will lost original space.So it became hard to read.
 2)Unable to recognise punctuation .
 
-===============================================
 The Playfair cipher is a manual symmetric encryption technique and was the first literal digraph substitution cipher.The technique encrypts pairs of letters (digraphs), instead of single letters as in the simple substitution cipher and rather more complex Vigen¨¨re cipher systems then in use. 
 
 Rules: 
+======
 1)If both letters are the same (or only one letter is left), add an "X" after the first letter. Encrypt the new pair and continue. 
 2)If the letters appear on the same row of your table, replace them with the letters to their immediate right respectively (wrapping around to the left side of the row if a letter in the original pair was on the right side of the row).
 3)If the letters appear on the same column of your table, replace them with the letters immediately below respectively (wrapping around to the top side of the column if a letter in the original pair was on the bottom side of the column).
